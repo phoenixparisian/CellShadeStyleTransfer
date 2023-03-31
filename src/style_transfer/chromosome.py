@@ -1,6 +1,4 @@
 import random
-import numpy as np
-
 
 class Chromosome:
     # track next chrom ID

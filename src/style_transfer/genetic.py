@@ -1,5 +1,4 @@
 import random
-import numpy as np
 from chromosome import Chromosome
 
 def getPopulation(n):
@@ -71,7 +70,6 @@ def getParents(selection):
 def getSelection(population, gen , genes_num):
     new_population = []
     pop_indices = list(range(len(population)))
-    random.shuffle(pop_indices)
 
     # 25 selections
     for i in range(25):
